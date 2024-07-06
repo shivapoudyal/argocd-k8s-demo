@@ -24,7 +24,7 @@ metadata:
   name: dj-log-app
   namespace: dj-app-ns
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: dj-log-app
